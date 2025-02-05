@@ -1,0 +1,85 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#B19470',
+    padding: 20,
+  },
+  profileContainer: {
+    alignItems: 'center',
+    padding: 25,
+    marginTop: 25,
+  },
+  profileImage: {
+    width: 200,
+    height: 100,
+    borderRadius: 30,
+    marginBottom: 35,
+    borderStyle: 'solid',
+    borderWidth: 2,
+    borderColor: '#3C3D37',
+  },
+  name: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    marginTop: -5,
+  },
+  title: {
+    fontSize: 16,
+    color: '#666',
+    marginBottom: 10,
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 12,
+    marginTop: 18,
+  },
+  subHeader: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 50,
+    marginBottom: 20,
+  },
+  bio: {
+    fontSize: 16,
+    lineHeight: 27,
+    marginBottom: 10,
+    backgroundColor: '#3C3D37',
+    color: '#fff',
+    padding: 15,
+    borderRadius: 15,
+  },
+  hobbyItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 13,
+    backgroundColor: '#3C3D37',
+    padding: 18,
+    borderRadius: 15,
+  },
+  hobbyText: {
+    fontSize: 15,
+    marginLeft: 15,
+    color: '#fff',
+    marginBottom: 8,
+    marginTop: 8,
+  },
+  contactItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#3C3D37',
+    padding: 15,
+    borderRadius: 15,
+    marginBottom: 15,
+  },
+  contactText: {
+    fontSize: 16,
+    marginLeft: 15,
+    color: '#fff',
+    height: 20,
+    marginTop: 10,
+    marginBottom: 10,
+  },
+});
